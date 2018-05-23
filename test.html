@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+   <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+   <style type="text/css">
+        img{
+           margin:0 auto;
+        }
+   </style>
+</head>
+<body>
+<div id="myCarousel" class="carousel slide slideheight">                        <!--设置轮播器区域样式，设置轮播器滚动样式-->
+      <ol class="carousel-indicators">                                <!--设置轮播器列表区域样式，就是小圆点区域样式-->
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>    <!--设置当前列表首选-->
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">                                    <!--设置轮播器图片区域-->
+        <div class="item active tp1">                                <!--设置轮播器图片样式-->
+            <a href="#"><img src="img/444_02.png" alt="第一张"></a>
+        </div>
+        <div class="item tp2">
+            <a href="#"><img src="img/2_46.png" alt="第二张"></a>
+        </div>
+        <div class="item tp3">
+            <a href="#"><img src="img/444_02.png" alt="第三张"></a>
+        </div>
+    </div>
+    <!--设置轮播器箭头区域-->
+    <a href="#myCarousel" data-slide="prev" class="carousel-control left">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#myCarousel" data-slide="next" class="carousel-control right">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+</body>
+</html>
